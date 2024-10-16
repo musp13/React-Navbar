@@ -1,0 +1,37 @@
+.navbar-container{
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tagName{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    padding-right: 50px;
+    list-style: none;
+    
+}
+
+.nav-menu-link{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.nav-menu-link:hover{
+    color: gray;
+}
+
